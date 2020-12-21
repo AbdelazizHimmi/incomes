@@ -1,0 +1,372 @@
+body {
+  margin: 0;
+  padding: 0;
+  padding-top: 50px;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+}
+
+.bg-image {
+  position: absolute;
+  width: 100%;
+}
+
+/* ---------------- navbar ---------------- */
+.navbar {
+  margin: auto 10rem;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 600;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.nav-link {
+  color: hsl(228, 39%, 23%);
+}
+
+.btn {
+  background-color: hsl(12, 88%, 59%);
+  color: #fff;
+  text-align: center;
+}
+
+.content {
+  margin: 0;
+  padding: 0 2rem;
+}
+
+.button-navbar {
+  margin-left: 5rem;
+}
+
+/* ---------------- navbar ---------------- */
+/* --------------- Container top ------------------- */
+h1 {
+  margin: 12rem 10rem 3rem 12rem;
+  font-weight: 900;
+  font-family: 'Be Vietnam', sans-serif;
+}
+.paragraphe1{
+  position: absolute;
+}
+.para1-content, .para2-content {
+  padding-right: 5rem;
+  padding-left: 12rem;
+  margin-right: 6rem;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 400;
+}
+
+.btn-para1 {
+  margin-left: 12rem;
+  margin-top: 2rem;
+}
+
+.para1-image {
+  margin-top: 6rem;
+  position: relative;
+}
+
+/* --------------- Container top ------------------- */
+/* ----------------Container-middle ---------------- */
+h2 {
+  margin: 8rem 10rem 3rem 12rem;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 700;
+}
+
+h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: 'Be Vietnam', sans-serif;
+}
+
+.section2 {
+  margin-top: 8rem;
+}
+
+.section2-button {
+  margin-right: 40px;
+  margin-bottom: 0;
+  padding-right: 26px;
+  padding-left: 26px;
+}
+
+.content-btn {
+  margin-bottom: 0;
+}
+
+.para2 {
+  margin-left: 115px;
+  margin-right: 200px;
+  margin-bottom: 2rem;
+}
+
+/*--------------- container-middle-------------- */
+
+
+
+
+
+
+
+
+
+
+.container {
+  text-align: center;
+}
+
+.section3-title {
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 700;
+  padding: 0;
+  margin: 50px 0;
+}
+
+.section3-image {
+  width: 8%;
+}
+
+.section3-para {
+  margin-right: 120px;
+  margin-left: 120px;
+  padding-top: 10px;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.btn-para3 {
+  box-shadow: 2px 3px 3px red;
+  margin-top: 2rem;
+  margin-bottom: 5rem;
+}
+
+/* ----------------last-section---------------- */
+.last-section {
+  height: 200px;
+  width: 100%;
+  background-color: hsl(12, 88%, 59%);
+}
+
+.last-section-title {
+
+  margin: 0;
+  margin-left: 160px;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: #fff;
+}
+
+.last-section-button {
+  margin-top: 80px;
+  margin-left: 300px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fff;
+}
+
+.last-section-element {
+  margin-bottom: 0;
+  color: #000;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 700;
+}
+
+/* ------------------footer-------------------- */
+.footer {
+  background-color: #000;
+  height: 350px;
+  width: 100%;
+  padding: 5%;
+  color: #fff;
+}
+
+.search-bar, .footer-button {
+  padding: 3%;
+  box-shadow: 1px 1px  hsl(12, 88%, 59%);
+}
+
+.footer-button {
+  background-color: hsl(12, 88%, 59%);
+  color: #fff;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 700;
+  box-shadow: 1px 1px;
+}
+
+.footer-search-bar, .image-footer {
+  margin-bottom: 6rem;
+}
+
+.social-media-item {
+  margin-right: 1rem;
+}
+.search-bar{
+  width: 15rem;
+}
+.footer-link {
+  color: #fff;
+  font-family: 'Be Vietnam', sans-serif;
+  font-weight: 300;
+}
+
+.copyrights {
+  opacity: 0.5;
+}
+
+/* this is for a mobile phone  */
+@media (max-width: 411px) {
+  body {
+    margin: 0;
+    padding: 0;
+  }
+  #navbarSupportedContent{
+    text-align: center;
+  }
+
+  .navbar{
+    padding: 3%;
+
+  }
+
+  .button-navbar{
+    margin: 0;
+  }
+
+
+
+
+  .para1-image-content {
+    width: 25rem;
+  }
+
+  .para1 {
+    text-align: center;
+  }
+
+  h1 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .para1-content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .btn-para1 {
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  .para2-title {
+    text-align: center;
+    margin: 0;
+    padding: 4%;
+    margin-top: 6rem;
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 700;
+  }
+
+  .para2-content {
+    font-family: 'Be Vietnam', sans-serif;
+    font-weight: 400;
+    text-align: center;
+    padding: 4%;
+    margin: 0;
+  }
+  .para2{
+    margin-left: 115px;
+    margin-right: 0;
+    margin-bottom: 2rem;
+    padding: 0;
+  }
+
+
+
+  .section3-image{
+    width: 30%;
+  }
+  .section3-para{
+    padding: 0;
+    margin: 0;
+  }
+
+
+  .last-section{
+    height: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 5%;
+  }
+  .last-section-title{
+    margin: 0;
+    margin-top: 2rem;
+    padding: 0;
+  }
+  .last-section-button{
+    margin: 0;
+    margin-top: 5rem;
+  }
+
+
+
+
+
+
+  .footer{
+    position: relative;
+  }
+  .footer-search-bar{
+    position: absolute;
+
+    margin-bottom: 0;
+    bottom: 17rem;
+    right: 5rem;
+  }
+
+  .search-bar{
+    padding-left: 2rem;
+    padding-right: 3rem;
+  }
+  .footer-button{
+    position: absolute;
+    padding-left: 2rem;
+    padding-right: 2rem;
+
+
+  }
+
+  .footer-menu, .footer-menu-2{
+    position: relative;
+    top: 60px;
+    text-align: center;
+  }
+
+  .image-footer {
+    position: absolute;
+    bottom: 0;
+    left: 100px;
+    /* right: 0px; */
+    top: 270px;
+  }
+  .social-media{
+    position: relative;
+    top: 50px;
+  }
+  .social-media-item{
+    margin-top: 1.5rem;
+  }
+  .copyrights{
+    position: relative;
+    top: 60px;
+    left: 25px;
+  }
+}
